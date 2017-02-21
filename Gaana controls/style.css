@@ -1,0 +1,84 @@
+html, body 
+{
+  background-color: #282828;
+}
+
+#playerTrackInfo{
+	position:relative;
+  width: 170px;
+  padding-top: 10px;}
+
+  #playerTrackName{
+   position:absolute;
+   top:0px;
+   white-space: nowrap ;
+   text-align: center;
+   width:170px;
+   font-family: helvetica;
+   font-size: 12px;
+   /*font-weight: bold;*/
+   color: rgba(255,255,255,1);
+ }
+ #albumTrackName{
+   position:absolute;
+   top:20px;
+   white-space: nowrap ;
+   text-align: center;
+   width:170px;
+   font-family: helvetica;
+   font-size: 12px;
+   /*font-weight: bold;*/
+   color: rgba(255,255,255,.6);
+ }
+ #controls {
+   position:relative;
+   width: 170px;
+   top:50px;
+ }
+ #previous{
+   position:absolute;
+   top:0;
+   left:30px;
+   width:25px;
+ }
+#play{
+ position:absolute;
+ top:0;
+ left:73px;
+ width:25px;	
+}
+#next{
+ position:absolute;
+ top:0;
+ left:120px;
+ width:25px;	
+}
+#shuffle-and-repeat{
+  position:relative;
+  width: 170px;
+  top:85px;
+  padding-bottom: 25px;
+  /*margin-bottom: 15px;*/
+}
+#shuffle{
+  position:absolute;
+  top:0;
+  left:52px;
+  width: 25px;
+}
+#repeat{
+	position:absolute;
+  top:0;
+  left:95px;
+  width:40px;
+}
+
+#controls:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
+#shuffle-and-repeat:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
+
